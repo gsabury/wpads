@@ -1,0 +1,27 @@
+.ad_120_240{
+    width: 120px;
+    height: 240px;
+
+}
+.wpads_wrapper img,
+.wpads_wrapper_image img{
+    max-width: 100%;
+}
+
+.wpads_wrapper::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.wpads_banner .ad_banner{
+    float: right;
+    margin: 0 0 3px 3px;
+}
+.ad_text{
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    max-width: 240px;
+    margin: 10px 5px;
+}
